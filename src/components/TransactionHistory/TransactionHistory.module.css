@@ -1,0 +1,35 @@
+.transactionTable {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.transactionTable th, .transactionTable td {
+    border: 2px solid black;
+    padding: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.transactionTable thead {
+    background-color: #2a2a2a;
+    color: #fff;
+    width: 33%;
+}
+
+.transactionTable tr {
+    text-align: center;
+}
+
+.transactionTable td:nth-child(1) {
+    text-align: left;
+}
+
+.transactionTable tr:nth-child(2n + 2) {
+    background-color: #d3d3d3;
+    
+}
+
+.transactionTable td:nth-child(3n)
+.transactionTable td:nth-child(2n) {
+    text-align: center;
+}
